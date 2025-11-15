@@ -1,0 +1,30 @@
+body {
+  background-image: url('/pic/waldobanner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; /* show whole image */
+  /* background-position: center; */
+  background-color: #f0f0f0;
+  background-attachment: fixed;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#scoreboards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* horizontal center */
+  align-items: center; /* vertical center */
+}

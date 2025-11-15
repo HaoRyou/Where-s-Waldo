@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/setting/homepage.css">
+    <title>Home Page</title>
+  </head>
+  <body>                                                                                                               
+    <h1>WELCOME To Hao's Where's Waldo</h1>
+
+    <div class="main">
+        <h1>WHERE'S WALDO?</h1>
+        <p>Can you find Waldo</p>
+        <a href="/gamestart">
+            <button id="gamestart">Play Game</button>
+        </a>
+        
+        <div id="scoreboards">
+            <h2>Score Board</h2>
+            <%for(let i=0;i<score.length;i++){%>
+                <p> <%=i+1 %>. <strong>Name: </strong> <%=score[i].name %>
+                <strong> Score: </strong> <%=score[i].score %> Second</p>
+            <%}%>
+        </div>
+    </div>
+
+  </body>
+</html>
